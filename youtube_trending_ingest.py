@@ -5,21 +5,21 @@ from datetime import datetime
 from dotenv import load_dotenv
 
 
-# 🔐 Load environment variables from .env
+# Load environment variables from .env
 load_dotenv()
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 
-# 🔧 Replace this with your actual API key
+# Replace this with your actual API key
 REGION_CODE = "PL"
 MAX_RESULTS = 50
 
-# 📁 Output folder (local, to simulate Bronze)
+# Output folder (local, to simulate Bronze)
 today = datetime.utcnow().strftime("%Y-%m-%d")
 output_dir = f"/Users/aliyusifov/Desktop/youtube_trend_analysis/datalake_demo/bronze/{today}"
 os.makedirs(output_dir, exist_ok=True)
 
-# 📡 YouTube API Endpoint
+# YouTube API Endpoint
 url = "https://www.googleapis.com/youtube/v3/videos"
 params = {
     "part": "snippet,statistics,contentDetails",
