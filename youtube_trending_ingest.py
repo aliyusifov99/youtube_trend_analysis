@@ -11,7 +11,6 @@ API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 
 # 🔧 Replace this with your actual API key
-API_KEY = "AIzaSyC0L0cuLWcNYCRXLY-PwUj7w2jtMvcYjrc"
 REGION_CODE = "PL"
 MAX_RESULTS = 50
 
