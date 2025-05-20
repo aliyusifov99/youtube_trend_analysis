@@ -26,4 +26,4 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          python ingestion/youtube_trending_ingest.py
+          python youtube_trending_ingest.py
