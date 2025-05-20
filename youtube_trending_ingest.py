@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("YOUTUBE_API_KEY")
 
-
 REGION_CODE = "PL"
 MAX_RESULTS = 50
 
