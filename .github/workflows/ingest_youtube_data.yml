@@ -25,5 +25,7 @@ jobs:
       - name: Run ingestion script
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+
         run: |
           python youtube_trending_ingest.py
