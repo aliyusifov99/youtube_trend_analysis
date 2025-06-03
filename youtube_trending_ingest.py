@@ -29,7 +29,7 @@ def fetch_trending_videos(api_key, region_code="PL", max_results_per_page=50):
     while True:
         params = {
             "part": "snippet,statistics,contentDetails",
-            "chart": "trending", 
+            "chart": "mostPopular", 
             "regionCode": region_code,
             "maxResults": max_results_per_page,
             "key": api_key
