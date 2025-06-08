@@ -25,6 +25,10 @@ This project demonstrates a complete, cloud-native data pipeline built on Micros
 
 The primary goal was to create a robust, automated, and idempotent data pipeline that showcases modern data engineering best practices.
 
+### Architecture Diagram
+
+![Architecture Diagram](architecture_diagram.drawio.png)
+
 ### Key Features
 
 * **Automated Daily Ingestion**: A GitHub Actions workflow runs daily to fetch the latest trending videos.
