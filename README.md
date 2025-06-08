@@ -1,6 +1,6 @@
 # Analyzing YouTube Trending Videos in Poland
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://youtubetrendanalysis-ugyp5ndsbhhsfurieiukhw.streamlit.app/)
 
 An end-to-end data engineering project that builds an automated pipeline to ingest, process, and visualize daily trending YouTube video data for the Polish region.
 
