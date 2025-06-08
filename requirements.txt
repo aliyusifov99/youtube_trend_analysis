@@ -1,3 +1,6 @@
 requests
 python-dotenv
 azure-storage-blob
+streamlit
+pandas
+deltalake

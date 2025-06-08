@@ -1,6 +1,25 @@
 # .gitignore
-.env
 __pycache__/
 *.pyc
 datalake_demo/
-secrets.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env
+.venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# Databricks
+.databricks
+
+# VS Code
+.vscode/
