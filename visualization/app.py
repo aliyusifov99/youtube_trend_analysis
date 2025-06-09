@@ -21,8 +21,7 @@ storage_account_key = os.getenv("AZURE_STORAGE_KEY")
 
 storage_options = {"account_name": storage_account_name, "account_key": storage_account_key}
 
-# --- Data Loading Function with Caching ---
-@st.cache_data
+# --- Data Loading Function ---
 def load_data(table_name):
     """Function to load a specific delta table from the Gold layer."""
     try:
